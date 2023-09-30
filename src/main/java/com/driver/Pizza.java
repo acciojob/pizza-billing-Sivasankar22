@@ -76,9 +76,10 @@ public class Pizza {
              }
              if(addtoppings) bill = bill+"Extra Toppings Added: "+this.istoppings+"\n";
              if(addpaperBag) bill = bill+"Paperbag Added: "+this.ispaperBag+"\n";
+             bill = bill+"Total Price: "+this.price+"\n";
              addbill=true;
          }
-         bill = bill+"Total Price: "+this.price+"\n";
+
         return this.bill;
     }
 }
