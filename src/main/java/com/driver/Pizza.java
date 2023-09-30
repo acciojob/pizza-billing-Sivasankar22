@@ -75,10 +75,10 @@ public class Pizza {
                  bill = bill+"Extra Cheese Added: "+this.ischeese+"\n";
              }
              if(addtoppings) bill = bill+"Extra Toppings Added: "+this.istoppings+"\n";
-             if(addpaperBag) bill = bill +"Paperbag Added: "+this.ispaperBag+"\n";
+             if(addpaperBag) bill = bill+"Paperbag Added: "+this.ispaperBag+"\n";
              addbill=true;
          }
-         bill = bill+"Total Price:"+this.price+"\n";
+         bill = bill+"Total Price: "+this.price+"\n";
         return this.bill;
     }
 }
