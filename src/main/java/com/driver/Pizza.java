@@ -38,7 +38,7 @@ public class Pizza {
     }
 
     public int getPrice(){
-        return price=300;
+        return this.price;
     }
 
     public void addExtraCheese(){
@@ -71,9 +71,7 @@ public class Pizza {
 
          if(addbill==false) {
 
-             if (addcheese) {
-                 bill = bill+"Extra Cheese Added: "+this.ischeese+"\n";
-             }
+             if (addcheese) bill = bill+"Extra Cheese Added: "+this.ischeese+"\n";
              if(addtoppings) bill = bill+"Extra Toppings Added: "+this.istoppings+"\n";
              if(addpaperBag) bill = bill+"Paperbag Added: "+this.ispaperBag+"\n";
              bill = bill+"Total Price: "+this.price+"\n";
